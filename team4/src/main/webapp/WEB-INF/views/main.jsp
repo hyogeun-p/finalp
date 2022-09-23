@@ -16,7 +16,7 @@
 <table border="1">
 	<thead>
 		<tr>
-			<td>구분</td>
+			<td>구분분</td>
 			<td>제목</td>
 			<td>작성일</td>
 			<td>상태</td>
