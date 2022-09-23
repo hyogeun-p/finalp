@@ -1,0 +1,124 @@
+:root{
+    --mainColor : rgb(24, 24, 24);
+    --subColor : rgb(59, 59, 59);
+    --boderColor : rgba(209, 209, 209, 0.486);
+    --fontColor : rgb(0, 173, 26); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--subColor);
+    border-bottom: 0.5px solid var(--boderColor);
+    list-style: none;
+}
+
+header a{
+    color: var(--mainColor);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+header .logo{
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: var(--fontColor);
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+header .logo > h1 > span{
+    color : white;
+}
+
+header .menu{
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+header .menu > li{
+    margin: 0 30px;
+    margin-top: 32px;
+}
+
+header .login{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    color: rgb(209, 209, 209);
+}
+
+header .login > i{
+    margin: 0 5px;
+    margin-top: 36px;
+    font-size: 1.3rem;
+}
+
+header .login > i:nth-child(3){
+    margin-right: 30px;
+}
+
+header .login > p{
+    margin-top: 31px;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--subColor);
+    border-bottom: 0.5px solid var(--boderColor);
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    border-top: 0.5px solid var(--boderColor);
+    background-color: var(--subColor);
+    display: flex;
+    flex-direction: row;
+}
+
+footer .footer_logo{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer_logo > h1{
+    color: var(--fontColor);
+}
+
+footer .footer_logo > h1 > span{
+    color: white;
+}
+
+footer .footer_content{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(209, 209, 209);
+}
+
